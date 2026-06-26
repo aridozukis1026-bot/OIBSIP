@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+}
+
+/* Navbar */
+nav{
+    position:sticky;
+    top:0;
+    background:#1e3a8a;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+/* Hero */
+.hero{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero p{
+    font-size:1.2rem;
+    margin:15px 0;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* Features */
+.features{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.features h2{
+    margin-bottom:30px;
+    font-size:2rem;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+}
+
+/* About */
+.about{
+    background:#e5e7eb;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.about h2{
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+/* Footer */
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+    }
+
+    nav ul{
+        margin-top:10px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+}
